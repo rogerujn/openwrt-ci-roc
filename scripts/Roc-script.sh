@@ -85,6 +85,9 @@ rm -rf feeds/luci/applications/luci-app-openclash
 # 清理 PassWall 的 chnlist 规则文件
 echo "baidu.com"  > package/luci-app-passwall/luci-app-passwall/root/usr/share/passwall/rules/chnlist
 
+# ddns-go
+git_sparse_clone master https://github.com/jeessy2/ddns-go .
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 
