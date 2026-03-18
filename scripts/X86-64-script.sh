@@ -70,7 +70,7 @@ git clone --depth=1 https://github.com/eamonxg/luci-app-aurora-config feeds/luci
 # chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app-athena-led/root/usr/sbin/athena-led
 
 # 克隆 luci-app-timecontrol 插件到 package 目录（核心步骤）
-git clone --depth=1 https://github.com/sirpdboy/luci-app-timecontrol package/luci-app-timecontrol
+# git clone --depth=1 https://github.com/sirpdboy/luci-app-timecontrol package/luci-app-timecontrol
 
 ### PassWall & OpenClash ###
 
